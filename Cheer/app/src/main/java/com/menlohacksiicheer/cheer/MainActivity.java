@@ -281,7 +281,6 @@ public class MainActivity extends AppCompatActivity {
                     .getImages().get(0)
                     .getClassifiers().get(0)
                     .getClasses().get(0);
-            Log.i("", visualClass.getName() + ", " + visualClass.getScore());
             String visualClassName = visualClass.getName();
             String reaction;
             if (visualClassName.equals("happy"))
